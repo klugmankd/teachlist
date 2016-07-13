@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+* {	
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background-color: #e0e0e0;*/
+	margin: 0;
+	background-color: rgba(55, 116, 78, 0.68);
+}
+
+#main {
+	background: url("../img/mainbg.jpg") center;
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	background-size: cover;
+}
+
+#inMain {
+	background-color: rgba(74, 60, 60, 0.49);
+}
+
+.animation {
+	text-decoration: none;
+	-webkit-trasition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+.logo {
+	color: #f8f8f8;
+}
+
+#mainButton {
+	position: absolute;
+    margin-top: 50vh;
+    margin-left: 47.5%;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(248, 248, 248, 0.26);
+    color: #c7bdc3;
+    font-size: 22px;
+    outline: none;
+}
+
+#mainButton:hover {
+	background: rgba(204, 204, 204, 0.38);
+	color: #f7f7f7;
+	cursor: pointer;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	height: 9vh;
+	margin-top: 91vh;
+}
+
+.headerLink, .slash{
+	background-color: rgba(216, 216, 216, 0);
+	border: none;
+	text-decoration: none;
+	color: rgba(216, 216, 216, .95);
+	font-weight: bolder;
+	margin-left: 20px;
+	font-size: 1.9em;
+	display: inline-block;
+	outline:none;
+	font-family: "Comic Sans MS";
+}
+
+.headerLink:hover {
+	color: #f8f8f8;
+}
+
+.section {
+	min-height: 80vh;
+	width: 75%;
+	background-color: rgba(69, 139, 96, 0.58);
+	/*background-color: rgba(162, 162, 162, 0.29);*/
+	border: 1px solid #989898;
+	margin: 7vh auto;
+	padding: 10px;
+	color: #f7f7f7;
+}
+
+#about {
+
+}
+
+h2 {
+	text-align: center;
+	/*color: #807e7e;*/
+	color: #f7f7f7;
+	padding-top: 3vh;
+	padding-bottom: 2vh;
+}
+
+#search {
+	text-align: center;
+}
+
+#searchLine {
+	display: inline-block;
+	width: 75%;
+	height: 30px;
+	font-size: 18px;
+	padding: 5px;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.33);
+	color: #f7f7f7;
+	border-radius: 5px;
+}
+
+#searchLine:focus {
+	background-color: rgb(255, 255, 255);
+	color: #999999;
+	border: 2px solid rgb(255, 255, 255);
+}
+#searchCategory {
+	width: 75%;
+	min-height: 10vh;
+	background: rgba(255, 255, 255, 0.48);
+	margin: 5px auto;
+}
+
+option {
+	background-color: #e0e0e0;
+	outline: none;
+	color: black;
+}
+
+#arrow {
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+#arrow:hover {
+	background-color: silver;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+#searchCategory select{
+	padding: 5px;
+	outline: none;
+	display: inline-block;
+	margin: 20px;
+	width: 20%;
+	font-size: 1em;
+	color: #989898;
+	background-color: #fff;
+}
+
+#resultSearch {	
+	margin: 10px auto;
+	padding: 0 auto;
+	width: 90%;
+}
+
+.profileTeacher {
+	padding: 5px;
+	width: 155px;
+	text-align: center;
+	-webkit-border-radius: 15px;
+	background-color: rgba(115, 186, 142, 0.6);
+	        border-radius: 15px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.profileTeacher:hover {
+	background-color: rgb(115, 186, 142);
+	cursor: pointer;
+}
+
+.profilePhoto {
+	margin: 2.5px;
+	width: 150px;
+	height: 150px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+
+#feedback {
+	min-height: 30vh;
+}
+
+#feedbackForm {
+	margin: 0 auto;
+	width: 30%;
+	text-align: center;
+	/*background-color: #F7F7F7;*/
+}
+
+.fieldFeedback, #sendMessage {
+	display: inline-block;
+	width: 90%;
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	color: #989898;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+#sendMessage:focus{
+	border: 2px solid #e0e0e0;
+	outline: none;
+}
+
+.fieldFeedback:focus, #message:focus {
+	border: 2px solid rgba(208, 93, 80, 0.64);
+	outline: none;
+}
+
+#message {
+	display: inline-block;
+	width: 90%;
+	resize: none;
+	height: 150px;
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	color: #989898;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+#sendMessage {
+	background-color: rgba(255, 255, 255, 0.4);
+	color: #f7f7f7;
+}
+
+#sendMessage:hover {
+	color: #989898;
+	background-color: rgba(255, 255, 255, 0.91);
+	cursor: pointer;
+	border: 2px solid #f7f7f7;
+}
