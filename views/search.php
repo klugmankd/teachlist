@@ -8,7 +8,7 @@
 <div id="secondSection"></div>
 <div class="section" id="search">
     <h2>Пошук<hr></h2>
-        <input type="text" id="searchLine" class="animation" name="word" autocomplete="off" placeholder="who are you search?">
+        <input type="text" id="searchLine" class="animation" name="word" autocomplete="off" placeholder="кого шукаємо?">
         <div id="searchCategory">
             <select class="category" name="subject" id="">
                 <option selected value="">За предметом</option>
@@ -29,11 +29,5 @@
                 <?php }?>
             </select>
         </div>
-    <div id="search_result">
-        <div id="modal_form">
-            <span id="modal_close">X</span>
-
-        </div>
-        <div id="overlay"></div>пше
-    </div>
+    <div id="search_result"></div>
 </div>

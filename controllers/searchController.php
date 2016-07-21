@@ -2,9 +2,9 @@
     include_once ("../includes/connection.php");
     include_once ("../models/searchModel.php");
 
-    $institution = $_POST['institution'];
-    $subject = $_POST['subject'];
-    $rank = $_POST['rank'];
+    $institution = $_GET['institution'];
+    $subject = $_GET['subject'];
+    $rank = $_GET['rank'];
     if (!empty($institution) && !empty($subject) && !empty($rank)) {
         search_by_rank_subject_institution($connection, $institution, $rank, $subject);
     } else
@@ -26,8 +26,8 @@
     if (!empty($rank)) {
        search_by_rank($connection, $rank);
     }
-    if (isset($_POST['word'])) {
-        $name = $_POST['word'];
+    if (isset($_GET['word'])) {
+        $name = $_GET['word'];
         if (!empty($name)) {
             search_by_name($connection, $name);
         }

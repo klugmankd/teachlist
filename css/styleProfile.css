@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+a {text-decoration: none;}
+
+header, footer {
+    width: 99%;
+    padding: 0.5%;
+    background-color: rgba(48, 95, 66, 0.84);
+    /*text-align: center;*/
+}
+
+#logo {
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    display: inline-block;
+}
+
+#logo:hover {
+    color: rgba(255, 255, 255, .9);
+}
+
+#rights {
+    display: inline-block;
+    float: right;
+    margin: 15px;
+    color: #f7f7f7;
+}
+
+.titleSite {
+    color: rgba(255, 255, 255, .9);
+    font-size: 2.3em;
+    margin-right: 15px;
+}
+
+.titleSite2 {
+    color: rgba(255, 255, 255, .4);
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+
+#teacherProfileBlock {
+    min-height: 80vh;
+    width: 45%;
+    background-color: rgba(69, 139, 96, 0.58);
+    border: 1px solid #989898;
+    margin: 25px auto;
+    padding: 10px;
+    color: #f7f7f7;
+}
+
+#titleBlock {
+    background-color: rgba(115, 186, 142, 0.6);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    min-height: 312px;
+    float: left;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#details {
+    background-color: rgba(115, 186, 142, 0.6);
+    border-radius: 10px;
+    min-height: 312px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.label {
+    background-color: rgba(115, 186, 142, .45);
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 1.1em;
+    text-align: center;
+    border-bottom: 2px solid rgba(48, 95, 66, 0.6);
+}
+
+.detail {
+    margin-bottom: 10px;
+    font-size: 1em;
+    display: none;
+}
+
+#imgBlock {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+#nameBlock {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#pdd {
+    margin-top: 10px;
+    width: 98%;
+    padding: 1%;
+    background-color: rgba(115, 186, 142, 0.6);
+    /*margin-left: 1%;*/
+    border-radius: 10px;
+}
+

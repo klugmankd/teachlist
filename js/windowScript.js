@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.profileTeacher').click( function(event){
+    $('.edit').click( function(event){
         event.preventDefault();
         $('#overlay').fadeIn(400,
             function(){
@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('#modal_close, #overlay').click( function(){
         $('#modal_form')
             .animate({opacity: 0, top: '45%'}, 200,
-                function(){
+                function(){ // пoсле aнимaции
                     $(this).css('display', 'none');
                     $('#overlay').fadeOut(400);
                 }
