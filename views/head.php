@@ -2,13 +2,13 @@
     <div id="inMain">
         <button id="mainButton" class="animation" value="#firstSection">Почати ознайомлення</button>
         <div id="menu" class="default">
-            <button class="headerLink animation" value="#main"><span class="logo">Г</span>оловна</button>
+            <button class="headerLink animation" value="#main">Головна</button>
             <span class="slash">/</span>
-            <button class="headerLink animation" value="#firstSection"><span class="logo">О</span>пис</button>
+            <button class="headerLink animation" value="#firstSection">Опис</button>
             <span class="slash">/</span>
-            <button class="headerLink animation" value="#secondSection"><span class="logo">П</span>ошук</button>
+            <button class="headerLink animation" value="#secondSection">Пошук</button>
             <span class="slash">/</span>
-            <button class="headerLink animation" value="#thirdSection"><span class="logo">З</span>воротній зв’язок</button>
+            <button class="headerLink animation" value="#feedback">Зворотній зв’язок</button>
         </div>
     </div>
 </div>

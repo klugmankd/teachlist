@@ -8,13 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/styleProfile.css">
     <link href="../img/icons/teachericon.ico" rel="shortcut icon" type="image/x-icon">
     <script src="../js/jquery.min.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function () {
-            if ( $(".detail").css('display') == 'none') {
-                $(".detail").show(800);
-            }
-        })
-    </script>
+    <script src="../js/script.js" type="text/javascript"></script>
 </head>
 <body>
     <header>

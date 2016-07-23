@@ -37,7 +37,7 @@
         
         $(document).ready(function () {
 
-            
+
 
             $(".edit").click(function () {
                 var id = $(this).attr('id');
@@ -142,10 +142,10 @@
     <div id="modal_form"></div>
     <div id="overlay"></div>
     <input type="text" class="animation" name="search" id="search" placeholder="кого шукаємо?">
-    <div id="add" class="edit">
+    <div id="add" class="edit animation">
         <img src="img/buttons/addButton.png" alt="">
     </div>
-    <div id="exit">
+    <div id="exit" class="animation">
         <a href="logout.php"><img src="img/buttons/exitButton.png" alt=""></a>
     </div>
     <div id="searchResult">
