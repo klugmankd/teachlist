@@ -5,7 +5,7 @@
         $array_sql_query[$i] = mysqli_query($connection, $array_sql_string[$i]);
     }
 ?>
-<!--<div id="secondSection"></div>-->
+<div id="secondSection"></div>
 <div class="section" id="search">
     <h2>Пошук<hr></h2>
         <input type="text" id="searchLine" class="animation" name="word" autocomplete="off" placeholder="кого шукаємо?">

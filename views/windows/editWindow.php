@@ -1,4 +1,5 @@
 <span id="modal_close"><img src="img/buttons/closeButton.png" style="width: 25px; height: 25px" alt=""></span>
+<div id="editTeacher">
 <h3>Редагувати дані</h3>
 <hr>
 <label for="teacher_name">П.І.Б.</label>
@@ -54,6 +55,20 @@
 <label for="pdd">ПДД</label>
 <textarea class="animation" name="pdd" id="pdd"><?=$result['PDD']?></textarea>
 <input type="button" id="update" class="button animation" value="Оновити" >
+<input type="button" id="goToInsertPhoto" class="button animation" value="Додати фото" >
+</div>
+<div id="addPhoto" style="display: none;">
+    <h3>Додати фото</h3>
+    <hr>
+    <form action="controllers/uploadController.php" method="post" enctype="multipart/form-data">
+        <label>ID</label>
+        <input type="text" name="id" class="updateSelect animation" value="<?=$result['id_teacher']?>">
+        <label>Фото</label>
+        <input type="file" name="img" id="img">
+        <input type="submit" id="insertPhoto" class="button animation">
+        <input type="button" id="goToUpdateTeacher" class="button animation" value="Редагувати дані" >
+    </form>
+</div>
 <div id="messageShow">
     <div class='clear'><br></div>
 </div>

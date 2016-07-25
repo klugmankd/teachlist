@@ -1,4 +1,4 @@
-<?php include_once ("../controllers/watchOnceController.php")?>
+<?php include_once("../controllers/watchOnceController.php") ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +29,7 @@
     <div id="wrapper">
         <div id="teacherProfileBlock">
             <div id="titleBlock">
-                <div id="imgBlock" style="background: url('../img/profiles/profile.jpg') center; background-size: cover;"></div>
+                <div id="imgBlock" style="background: url('../img/profiles/<?=$result['img']?>') center; background-size: cover;"></div>
                 <div id="nameBlock">
                     <p><?=$result['full_teacher_name']?></p>
                     <hr>

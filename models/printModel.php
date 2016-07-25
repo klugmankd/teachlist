@@ -1,9 +1,13 @@
 <?php
+    
     function print_result_search ($connection, $sql_string){
         $sql_query = mysqli_query($connection, $sql_string);
-        while ($result = mysqli_fetch_array($sql_query)) {
-            include('../views/searchContent.php');
-        }
+        if ($sql_query) {
+            while ($result = mysqli_fetch_array($sql_query)) {
+                include('../views/main/search/searchContent.php');
+            }
+        } else echo "Запит не прийнято!";
+
     }
 
     function print_one_teacher ($connection, $criteria) {

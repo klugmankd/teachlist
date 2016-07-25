@@ -19,6 +19,17 @@ a:focus, a:visited {
     text-decoration: none;
 }
 
+#search {
+    position: fixed;
+    top: 5px;
+    left: 30%;
+    width: 39%;
+    padding: 0.5%;
+    background-color: rgba(223, 223, 223, 0.56);
+    color: #686868;
+    border-radius: 10px;
+}
+
 #add {
     position: fixed;
     top: 5px;
@@ -45,24 +56,10 @@ a:focus, a:visited {
     transition: all.8s ease;
 }
 
-#search {
-    position: fixed;
-    top: 5px;
-    left: 30%;
-    width: 39%;
-    padding: 0.5%;
-    background-color: rgba(223, 223, 223, 0);
-    color: #686868;
-    border-radius: 10px;
-}
-
 #search:focus {
     background-color: #fff;
     outline: none;
     border: 2px solid rgba(208, 93, 80, 0.64);
-    padding: 1.1%;
-    width: 38.8%;
-    font-size: 20px;
 }
 
 #searchResult {

@@ -25,6 +25,7 @@
     } else
     if (!empty($rank)) {
        search_by_rank($connection, $rank);
+//       echo "gew";
     }
     if (isset($_GET['word'])) {
         $name = $_GET['word'];

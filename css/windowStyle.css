@@ -86,7 +86,7 @@ label {
     float: left;
     padding: 1.5%;
     margin-top: 13px;
-    margin-left: 30px;
+    margin-left: 7%;
     /*border-bottom: 2px solid rgba(255, 255, 255, 0.8);*/
     color: rgba(255, 255, 255, 0.8);
 }
@@ -115,12 +115,22 @@ textarea {
     height: 150px;
 }
 
+#img {
+    width: 65%;
+    padding: 1.5%;
+    margin-top: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
 .button {
     background-color: rgba(255, 255, 255, 0.4);
     color: #f7f7f7;
     display: inline-block;
     width: 49%;
-    /*margin-left: 25%;*/
+    float: left;
+    margin-left: 1%;
     border-radius: 5px;
     border: 2px solid silver;
     padding: 1%;
@@ -140,10 +150,10 @@ textarea {
     outline: none;
 }
 
-#update {
+/*#update {
     width: 50%;
     margin-left: 25%;
-}
+}*/
 
 .clear {
     clear: both;
